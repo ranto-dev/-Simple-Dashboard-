@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import Form from "./components/customs/Form";
 
 export default function App() {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
+      <Form />
     </div>
   );
 }
